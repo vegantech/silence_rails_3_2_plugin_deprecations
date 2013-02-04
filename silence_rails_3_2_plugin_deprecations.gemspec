@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["shawn@vegantech.com"]
   gem.description   = %q{Turn off Rails 3.2 deprecation warnings for plugins in vendor/plugins.  The goal is to put in the nondevelopment groups in the gemfile to silence the warnings.}
   gem.summary       = %q{Squelch 2.3 deprecation warning in rails 3.2}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/vegantech/silence_rails_3_2_plugin_deprecations"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
